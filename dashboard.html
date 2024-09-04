@@ -1,557 +1,587 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="css/normalize.css">
-    <link rel="stylesheet" href="css/master.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/master.css" />
     <!-- google font  -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;500&amp;display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;500&amp;display=swap"
+      rel="stylesheet"
+    />
     <!-- font awesome  -->
-    <link rel="stylesheet" href="css/all.css">
+    <link rel="stylesheet" href="css/all.css" />
     <title>Template 4</title>
-</head>
+  </head>
 
-<body>
+  <body>
     <div class="screen">
-        <header class=" ">
-            <div class="search">
-                <i class="fa-solid fa-magnifying-glass"></i>
-                <input type="search" name="keyword" id="keyword" placeholder="Type a keyword">
+      <header class=" ">
+        <div class="search">
+          <i class="fa-solid fa-magnifying-glass"></i>
+          <input
+            type="search"
+            name="keyword"
+            id="keyword"
+            placeholder="Type a keyword"
+          />
+        </div>
+        <div class="user_prof">
+          <span class="notifs">
+            <i class="fa-regular fa-bell fa-lg"></i>
+          </span>
+          <a href="profile.html"
+            ><img draggable="false" src="imgs/avatar.png" alt="avatar"
+          /></a>
+        </div>
+      </header>
+      <div class="side-bar">
+        <div class="logo">
+          <h1 class="font-20">Yassine</h1>
+        </div>
+        <ul>
+          <li class>
+            <a href="dashboard.html" class="active">
+              <i class="fa-regular fa-chart-bar fa-fw"></i>
+              <h4>dashboard</h4>
+            </a>
+          </li>
+
+          <li class>
+            <a href="profile.html" class>
+              <i class="fa-regular fa-user fa-fw"></i>
+              <h4>profile</h4>
+            </a>
+          </li>
+          <li class>
+            <a href="projects.html" class>
+              <i class="fa-solid fa-diagram-project fa-fw"></i>
+              <h4>projects</h4>
+            </a>
+          </li>
+          <li class>
+            <a href="courses.html" class>
+              <i class="fa-solid fa-graduation-cap fa-fw"></i>
+              <h4>courses</h4>
+            </a>
+          </li>
+          <li class>
+            <a href="friends.html" class>
+              <i class="fa-regular fa-circle-user fa-fw"></i>
+              <h4>friends</h4>
+            </a>
+          </li>
+          <li class>
+            <a href="files.html" class>
+              <i class="fa-regular fa-file fa-fw"></i>
+              <h4>files</h4>
+            </a>
+          </li>
+          <li class>
+            <a href="plans.html" class>
+              <i class="fa-regular fa-credit-card fa-fw"></i>
+              <h4>plans</h4>
+            </a>
+          </li>
+          <li class>
+            <a href="settings.html" class>
+              <i class="fa-solid fa-gear"></i>
+              <h4>settings</h4>
+            </a>
+          </li>
+        </ul>
+      </div>
+      <div class="content">
+        <h1>dashboard</h1>
+        <div class="dashboard">
+          <div class="welcome">
+            <div class="intro p-20">
+              <div>
+                <h2>welcome</h2>
+                <p>Yassine</p>
+              </div>
+              <img draggable="false" src="imgs/welcome.png" alt="*" />
             </div>
-            <div class="user_prof">
-                <span class="notifs">
-                    <i class="fa-regular fa-bell fa-lg"></i>
+            <div class="details bg-white p-20">
+              <img draggable="false" src="imgs/avatar.png" alt />
+              <div class="personal-info">
+                <span>
+                  <div>Ahmed Yassine</div>
+                  <p>developer</p>
                 </span>
-                <img draggable="false" src="imgs/avatar.png" alt="">
+                <span>
+                  <div>80</div>
+                  <p>projects</p>
+                </span>
+                <span>
+                  <div>&dollar;8500</div>
+                  <p>earned</p>
+                </span>
+              </div>
+              <a href class="p-10">profile</a>
             </div>
-        </header>
-        <div class="side-bar">
-            <div class="logo">
-                <h1 class="font-20 ">Yassine</h1>
+          </div>
+          <div class="quick-draft p-20 bg-white">
+            <h2>quick-draft</h2>
+            <p>Write A Draft For Your Ideas</p>
+            <form action class>
+              <input type="text" name="title" id="title" placeholder="title" />
+              <textarea
+                name="tought"
+                id="tought"
+                placeholder="your thought"
+              ></textarea>
+              <input type="submit" value="save" />
+            </form>
+          </div>
+          <div class="yearly-targets">
+            <h2>Yearly Targets</h2>
+            <p>Targets Of The Year</p>
+            <div class="targets">
+              <div class="trg">
+                <div class="icon">
+                  <i class="fa-solid fa-dollar-sign fa-lg"></i>
+                </div>
+                <div class="details">
+                  <div class="title">Money</div>
+                  <div class="achieved">&dollar;20.000</div>
+                  <div class="progress">
+                    <span>80%</span>
+                  </div>
+                </div>
+              </div>
+              <div class="trg">
+                <div class="icon"><i class="fa-solid fa-code fa-lg"></i></div>
+                <div class="details">
+                  <div class="title">Projects</div>
+                  <div class="achieved">24</div>
+                  <div class="progress">
+                    <span>50%</span>
+                  </div>
+                </div>
+              </div>
+              <div class="trg">
+                <div class="icon"><i class="fa-solid fa-user fa-lg"></i></div>
+                <div class="details">
+                  <div class="title">team</div>
+                  <div class="achieved">12</div>
+                  <div class="progress">
+                    <span>75%</span>
+                  </div>
+                </div>
+              </div>
             </div>
-            <ul>
-                <li class="">
-                    <a href="dashboard.html" class="active">
-                        <i class="fa-regular fa-chart-bar fa-fw"></i>
-                        <h4>dashboard</h4>
-                    </a>
-                </li>
-
-                <li class="">
-                    <a href="profile.html" class="">
-                        <i class="fa-regular fa-user fa-fw"></i>
-                        <h4>profile</h4>
-                    </a>
-                </li>
-                <li class="">
-                    <a href="projects.html" class="">
-                        <i class="fa-solid fa-diagram-project fa-fw"></i>
-                        <h4>projects</h4>
-                    </a>
-                </li>
-                <li class="">
-                    <a href="courses.html" class="">
-                        <i class="fa-solid fa-graduation-cap fa-fw"></i>
-                        <h4>courses</h4>
-                    </a>
-                </li>
-                <li class="">
-                    <a href="friends.html" class="">
-                        <i class="fa-regular fa-circle-user fa-fw"></i>
-                        <h4>friends</h4>
-                    </a>
-                </li>
-                <li class="">
-                    <a href="files.html" class="">
-                        <i class="fa-regular fa-file fa-fw"></i>
-                        <h4>files</h4>
-                    </a>
-                </li>
-                <li class="">
-                    <a href="plans.html" class="">
-                        <i class="fa-regular fa-credit-card fa-fw"></i>
-                        <h4>plans</h4>
-                    </a>
-                </li>
-                <li class="">
-                    <a href="settings.html" class="">
-                        <i class="fa-solid fa-gear"></i>
-                        <h4>settings</h4>
-                    </a>
-                </li>
+          </div>
+          <div class="tickets-statistics">
+            <h2>Tickets Statistics</h2>
+            <p>Everything About Support Tickets</p>
+            <div class="details">
+              <div class="type">
+                <i class="fa-regular fa-rectangle-list fa-2x"></i>
+                <div class="value">2500</div>
+                <h4>total</h4>
+              </div>
+              <div class="type">
+                <i class="fa-solid fa-spinner fa-2x"></i>
+                <div class="value">600</div>
+                <h4>Pending</h4>
+              </div>
+              <div class="type">
+                <i class="fa-regular fa-circle-check fa-2x"></i>
+                <div class="value">300</div>
+                <h4>Closed</h4>
+              </div>
+              <div class="type">
+                <i class="fa-regular fa-rectangle-xmark fa-2x"></i>
+                <div class="value">900</div>
+                <h4>deleted</h4>
+              </div>
+            </div>
+          </div>
+          <div class="lastest-news">
+            <h2>Latest News</h2>
+            <div class="box">
+              <a href="#" class="new">
+                <img draggable="false" src="imgs/news-01.png" alt />
+                <div class="text">
+                  <h4>Created SASS Section</h4>
+                  <p>New SASS Examples & Tutorials</p>
+                </div>
+                <div class="date">3 Days Ago</div>
+              </a>
+              <a href="#" class="new">
+                <img draggable="false" src="imgs/news-02.png" alt />
+                <div class="text">
+                  <h4>Changed The Design</h4>
+                  <p>A Brand New Website Design</p>
+                </div>
+                <div class="date">4 Days Ago</div>
+              </a>
+              <a href="#" class="new">
+                <img draggable="false" src="imgs/news-03.png" alt />
+                <div class="text">
+                  <h4>Team Increased</h4>
+                  <p>3 Developers Joined The Team</p>
+                </div>
+                <div class="date">7 Days Ago</div>
+              </a>
+              <a href="#" class="new">
+                <img draggable="false" src="imgs/news-04.png" alt />
+                <div class="text">
+                  <h4>Added Payment Gateway</h4>
+                  <p>Many New Payment Gateways Added</p>
+                </div>
+                <div class="date">9 Days Ago</div>
+              </a>
+            </div>
+          </div>
+          <div class="lastest-tasks">
+            <h2>Latest Tasks</h2>
+            <div class="box">
+              <div class="task">
+                <a href="#"><i class="fa-regular fa-trash-can delete"></i></a>
+                <h4>Record One New Video</h4>
+                <p>Record Python Create Exe Project</p>
+              </div>
+              <div class="task">
+                <a href="#"><i class="fa-regular fa-trash-can delete"></i></a>
+                <h4>Write Article</h4>
+                <p>Write Low Level vs High Level Languages</p>
+              </div>
+              <div class="task">
+                <a href="#"><i class="fa-regular fa-trash-can delete"></i></a>
+                <h4>Finish Project</h4>
+                <p>Publish Academy Programming Project</p>
+              </div>
+              <div class="task done">
+                <a href="#"><i class="fa-regular fa-trash-can delete"></i></a>
+                <h4>Attend The Meeting</h4>
+                <p>Attend The Project Business Analysis Meeting</p>
+              </div>
+              <div class="task">
+                <a href="#"><i class="fa-regular fa-trash-can delete"></i></a>
+                <h4>Finish Lesson</h4>
+                <p>Finish Teaching Flex Box</p>
+              </div>
+            </div>
+          </div>
+          <div class="top-search">
+            <h2>Top Search Items</h2>
+            <div class="box">
+              <div class="header">
+                <div>Keyword</div>
+                <div>search count</div>
+              </div>
+              <div class="item">
+                <div>programming</div>
+                <div>220</div>
+              </div>
+              <div class="item">
+                <div>JavaScript</div>
+                <div>190</div>
+              </div>
+              <div class="item">
+                <div>PHP</div>
+                <div>120</div>
+              </div>
+              <div class="item">
+                <div>HTML</div>
+                <div>90</div>
+              </div>
+              <div class="item">
+                <div>Design</div>
+                <div>30</div>
+              </div>
+              <div class="item">
+                <div>Logic</div>
+                <div>20</div>
+              </div>
+            </div>
+          </div>
+          <div class="Latest-uploads">
+            <h2>Latest Uploads</h2>
+            <div class="box">
+              <div class="file">
+                <img draggable="false" src="imgs/pdf.svg" alt="svg" />
+                <div class="text">
+                  <h4>my-file.pdf</h4>
+                  <p>Yassine</p>
+                </div>
+                <div class="size">4.5mb</div>
+              </div>
+              <div class="file">
+                <img draggable="false" src="imgs/avi.svg" alt="svg" />
+                <div class="text">
+                  <h4>My-Video-File.avi</h4>
+                  <p>Admin</p>
+                </div>
+                <div class="size">9.5mb</div>
+              </div>
+              <div class="file">
+                <img draggable="false" src="imgs/dll.svg" alt="svg" />
+                <div class="text">
+                  <h4>My-Dll-File.dll</h4>
+                  <p>Ossama</p>
+                </div>
+                <div class="size">2.6mb</div>
+              </div>
+              <div class="file">
+                <img draggable="false" src="imgs/eps.svg" alt="svg" />
+                <div class="text">
+                  <h4>My-Eps-File.eps</h4>
+                  <p>ahmed</p>
+                </div>
+                <div class="size">3.7mb</div>
+              </div>
+              <div class="file">
+                <img draggable="false" src="imgs/zip.svg" alt="svg" />
+                <div class="text">
+                  <h4>My-Zip-File.zip</h4>
+                  <p>Yassine</p>
+                </div>
+                <div class="size">4.5mb</div>
+              </div>
+              <div class="file">
+                <img draggable="false" src="imgs/txt.svg" alt="svg" />
+                <div class="text">
+                  <h4>my-Text-File.txt</h4>
+                  <p>rayan</p>
+                </div>
+                <div class="size">4.5mb</div>
+              </div>
+            </div>
+          </div>
+          <div class="Project-progress">
+            <h2>Last Project Progress</h2>
+            <ul class="box">
+              <li class="step">
+                <div class="symbol"></div>
+                <div>Got The Project</div>
+              </li>
+              <li class="step">
+                <div class="symbol"></div>
+                <div>Started The Project</div>
+              </li>
+              <li class="step">
+                <div class="symbol"></div>
+                <div>The Project About To Finish</div>
+              </li>
+              <li class="step current-step">
+                <div class="symbol"></div>
+                <div>Test The Project</div>
+              </li>
+              <li class="step">
+                <div class="symbol"></div>
+                <div>Finish The Project & Get Money</div>
+              </li>
+              <img draggable="false" src="imgs/project.png" alt />
             </ul>
-        </div>
-        <div class="content">
-            <h1>dashboard</h1>
-            <div class="dashboard">
-                <div class="welcome">
-                    <div class="intro p-20">
-                        <div>
-                            <h2>welcome</h2>
-                            <p>Yassine </p>
-                        </div>
-                        <img draggable="false" src="imgs/welcome.png" alt="*">
-                    </div>
-                    <div class="details bg-white p-20">
-                        <img draggable="false" src="imgs/avatar.png" alt="">
-                        <div class="personal-info">
-                            <span>
-                                <div>Ahmed Yassine</div>
-                                <p>developer</p>
-                            </span>
-                            <span>
-                                <div>80</div>
-                                <p>projects</p>
-                            </span>
-                            <span>
-                                <div>&dollar;8500</div>
-                                <p>earned</p>
-                            </span>
-                        </div>
-                        <a href="" class="p-10 ">profile</a>
-                    </div>
+          </div>
+          <div class="reminders">
+            <h2>reminders</h2>
+            <div class="box">
+              <div class="rem">
+                <div class="symbol"></div>
+                <div class="text">
+                  <h4>check my tasks list</h4>
+                  <p>28/09/2022 - 12:00am</p>
                 </div>
-                <div class="quick-draft p-20 bg-white">
-                    <h2>quick-draft</h2>
-                    <p>Write A Draft For Your Ideas </p>
-                    <form action="" class="">
-                        <input type="text" name="title" id="title" placeholder="title">
-                        <textarea name="tought" id="tought" placeholder="your thought"></textarea>
-                        <input type="submit" value="save">
-                    </form>
+              </div>
+              <div class="rem">
+                <div class="symbol"></div>
+                <div class="text">
+                  <h4>check my tasks list</h4>
+                  <p>28/09/2022 - 12:00am</p>
                 </div>
-                <div class="yearly-targets">
-                    <h2>Yearly Targets</h2>
-                    <p>Targets Of The Year </p>
-                    <div class="targets">
-                        <div class="trg">
-                            <div class="icon"><i class="fa-solid fa-dollar-sign fa-lg"></i></div>
-                            <div class="details">
-                                <div class="title">Money</div>
-                                <div class="achieved">&dollar;20.000</div>
-                                <div class="progress">
-                                    <span>80%</span>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="trg">
-                            <div class="icon"><i class="fa-solid fa-code fa-lg"></i></div>
-                            <div class="details">
-                                <div class="title">Projects</div>
-                                <div class="achieved">24</div>
-                                <div class="progress">
-                                    <span>50%</span>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="trg">
-                            <div class="icon"><i class="fa-solid fa-user fa-lg"></i></div>
-                            <div class="details">
-                                <div class="title">team</div>
-                                <div class="achieved">12</div>
-                                <div class="progress">
-                                    <span>75%</span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+              </div>
+              <div class="rem">
+                <div class="symbol"></div>
+                <div class="text">
+                  <h4>check my tasks list</h4>
+                  <p>28/09/2022 - 12:00am</p>
                 </div>
-                <div class="tickets-statistics">
-                    <h2>Tickets Statistics</h2>
-                    <p>Everything About Support Tickets</p>
-                    <div class="details">
-                        <div class="type">
-                            <i class="fa-regular fa-rectangle-list fa-2x"></i>
-                            <div class="value">2500</div>
-                            <h4>total</h4>
-                        </div>
-                        <div class="type">
-                            <i class="fa-solid fa-spinner fa-2x"></i>
-                            <div class="value">600</div>
-                            <h4>Pending</h4>
-                        </div>
-                        <div class="type">
-                            <i class="fa-regular fa-circle-check fa-2x"></i>
-                            <div class="value">300</div>
-                            <h4>Closed</h4>
-                        </div>
-                        <div class="type">
-                            <i class="fa-regular fa-rectangle-xmark fa-2x"></i>
-                            <div class="value">900</div>
-                            <h4>deleted</h4>
-                        </div>
-                    </div>
+              </div>
+              <div class="rem">
+                <div class="symbol"></div>
+                <div class="text">
+                  <h4>check my tasks list</h4>
+                  <p>28/09/2022 - 12:00am</p>
                 </div>
-                <div class="lastest-news">
-                    <h2>Latest News</h2>
-                    <div class="box">
-                        <a href="#" class="new">
-                            <img draggable="false" src="imgs/news-01.png" alt="">
-                            <div class="text">
-                                <h4>Created SASS Section </h4>
-                                <p>New SASS Examples & Tutorials</p>
-                            </div>
-                            <div class="date">3 Days Ago</div>
-                        </a>
-                        <a href="#" class="new">
-                            <img draggable="false" src="imgs/news-02.png" alt="">
-                            <div class="text">
-                                <h4>Changed The Design</h4>
-                                <p>A Brand New Website Design</p>
-                            </div>
-                            <div class="date">4 Days Ago</div>
-                        </a>
-                        <a href="#" class="new">
-                            <img draggable="false" src="imgs/news-03.png" alt="">
-                            <div class="text">
-                                <h4>Team Increased</h4>
-                                <p>3 Developers Joined The Team</p>
-                            </div>
-                            <div class="date">7 Days Ago</div>
-                        </a>
-                        <a href="#" class="new">
-                            <img draggable="false" src="imgs/news-04.png" alt="">
-                            <div class="text">
-                                <h4>Added Payment Gateway</h4>
-                                <p>Many New Payment Gateways Added</p>
-                            </div>
-                            <div class="date">9 Days Ago</div>
-                        </a>
-                    </div>
-                </div>
-                <div class="lastest-tasks">
-                    <h2>Latest Tasks</h2>
-                    <div class="box">
-                        <div class="task">
-                            <a href="#"><i class="fa-regular fa-trash-can delete"></i></a>
-                            <h4>Record One New Video</h4>
-                            <p>Record Python Create Exe Project</p>
-                        </div>
-                        <div class="task">
-                            <a href="#"><i class="fa-regular fa-trash-can delete"></i></a>
-                            <h4>Write Article</h4>
-                            <p>Write Low Level vs High Level Languages</p>
-                        </div>
-                        <div class="task">
-                            <a href="#"><i class="fa-regular fa-trash-can delete"></i></a>
-                            <h4>Finish Project</h4>
-                            <p>Publish Academy Programming Project</p>
-                        </div>
-                        <div class="task done">
-                            <a href="#"><i class="fa-regular fa-trash-can delete"></i></a>
-                            <h4>Attend The Meeting</h4>
-                            <p>Attend The Project Business Analysis Meeting</p>
-                        </div>
-                        <div class="task">
-                            <a href="#"><i class="fa-regular fa-trash-can delete"></i></a>
-                            <h4>Finish Lesson</h4>
-                            <p>Finish Teaching Flex Box</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="top-search">
-                    <h2>Top Search Items</h2>
-                    <div class="box">
-                        <div class="header">
-                            <div>Keyword</div>
-                            <div>search count</div>
-                        </div>
-                        <div class="item">
-                            <div>programming</div>
-                            <div>220</div>
-                        </div>
-                        <div class="item">
-                            <div>JavaScript</div>
-                            <div>190</div>
-                        </div>
-                        <div class="item">
-                            <div>PHP</div>
-                            <div>120</div>
-                        </div>
-                        <div class="item">
-                            <div>HTML</div>
-                            <div>90</div>
-                        </div>
-                        <div class="item">
-                            <div>Design</div>
-                            <div>30</div>
-                        </div>
-                        <div class="item">
-                            <div>Logic</div>
-                            <div>20</div>
-                        </div>
-                    </div>
-                </div>
-                <div class="Latest-uploads">
-                    <h2>Latest Uploads</h2>
-                    <div class="box">
-                        <div class="file">
-                            <img draggable="false" src="imgs/pdf.svg" alt="">
-                            <div class="text">
-                                <h4>my-file.pdf</h4>
-                                <p>Yassine</p>
-                            </div>
-                            <div class="size">4.5mb</div>
-                        </div>
-                        <div class="file">
-                            <img draggable="false" src="imgs/avi.svg" alt="">
-                            <div class="text">
-                                <h4>My-Video-File.avi</h4>
-                                <p>Admin</p>
-                            </div>
-                            <div class="size">9.5mb</div>
-                        </div>
-                        <div class="file">
-                            <img draggable="false" src="imgs/dll.svg" alt="">
-                            <div class="text">
-                                <h4>My-Dll-File.dll</h4>
-                                <p>Ossama</p>
-                            </div>
-                            <div class="size">2.6mb</div>
-                        </div>
-                        <div class="file">
-                            <img draggable="false" src="imgs/eps.svg" alt="">
-                            <div class="text">
-                                <h4>My-Eps-File.eps</h4>
-                                <p>ahmed</p>
-                            </div>
-                            <div class="size">3.7mb</div>
-                        </div>
-                        <div class="file">
-                            <img draggable="false" src="imgs/zip.svg" alt="">
-                            <div class="text">
-                                <h4>My-Zip-File.zip</h4>
-                                <p>Yassine</p>
-                            </div>
-                            <div class="size">4.5mb</div>
-                        </div>
-                        <div class="file">
-                            <img draggable="false" src="imgs/txt.svg" alt="">
-                            <div class="text">
-                                <h4>my-Text-File.txt</h4>
-                                <p>rayan</p>
-                            </div>
-                            <div class="size">4.5mb</div>
-                        </div>
-                    </div>
-                </div>
-                <div class="Project-progress">
-                    <h2>Last Project Progress</h2>
-                    <div class="box">
-                        <div class="step">
-                            <div class="symbol"></div>
-                            <div>Got The Project</div>
-                        </div>
-                        <div class="step">
-                            <div class="symbol"></div>
-                            <div>Started The Project</div>
-                        </div>
-                        <div class="step">
-                            <div class="symbol"></div>
-                            <div>The Project About To Finish</div>
-                        </div>
-                        <div class="step current-step">
-                            <div class="symbol"></div>
-                            <div>Test The Project</div>
-                        </div>
-                        <div class="step">
-                            <div class="symbol"></div>
-                            <div>Finish The Project & Get Money</div>
-                        </div>
-                        <img draggable="false" src="imgs/project.png" alt="">
-                    </div>
-                </div>
-                <div class="reminders">
-                    <h2>reminders</h2>
-                    <div class="box">
-                        <div class="rem">
-                            <div class="symbol"></div>
-                            <div class="text">
-                                <h4>check my tasks list</h4>
-                                <p>28/09/2022 - 12:00am</p>
-                            </div>
-                        </div>
-                        <div class="rem">
-                            <div class="symbol"></div>
-                            <div class="text">
-                                <h4>check my tasks list</h4>
-                                <p>28/09/2022 - 12:00am</p>
-                            </div>
-                        </div>
-                        <div class="rem">
-                            <div class="symbol"></div>
-                            <div class="text">
-                                <h4>check my tasks list</h4>
-                                <p>28/09/2022 - 12:00am</p>
-                            </div>
-                        </div>
-                        <div class="rem">
-                            <div class="symbol"></div>
-                            <div class="text">
-                                <h4>check my tasks list</h4>
-                                <p>28/09/2022 - 12:00am</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="Latest-post">
-                    <h2>Latest post</h2>
-                    <div class="box">
-                        <div class="user">
-                            <img draggable="false" src="imgs/avatar.png" alt="">
-                            <div class="text">
-                                <h4>Ahmed Yassine</h4>
-                                <p>about 3 hours ago</p>
-                            </div>
-                        </div>
-                        <div class="content">
-                            <div class="proverb">" A journey of a thousand miles begins with a single step."
-                            </div>
-                            <div class="react">
-                                <div class="heart"><i class="fa-regular fa-heart"></i> 1.8K</div>
-                                <div class="comment"><i class="fa-regular fa-comments"></i> 286</div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="social-media">
-                    <h2>Social Media stats</h2>
-                    <div class="box">
-                        <div class="link twitter">
-                            <i class="fa-brands fa-twitter fa-2x"></i>
-                            <div>90K Followers </div>
-                            <button>follow</button>
-                        </div>
-                        <div class="link facebook">
-                            <i class="fa-brands fa-facebook fa-2x"></i>
-                            <div>2M Like </div>
-                            <button>like</button>
-                        </div>
-                        <div class="link youtube">
-                            <i class="fa-brands fa-youtube fa-2x"></i>
-                            <div>1M Subs </div>
-                            <button>subscribe</button>
-                        </div>
-                        <div class="link linkedin">
-                            <i class="fa-brands fa-linkedin fa-2x"></i>
-                            <div>50K Followers </div>
-                            <button>follow</button>
-                        </div>
-                    </div>
-                </div>
-                <div class="Projects">
-                    <h2>Projects</h2>
-                    <div>
-                        <table>
-                        <colgroup>
-                        <col>
-                        <col>
-                        <col>
-                        <col>
-                        <col>
-                        <col>
-                        </colgroup>
-                        <thead>
-                            <tr>
-                                <th>Name</th>
-                                <th>Finish Date</th>
-                                <th>Client</th>
-                                <th>Price</th>
-                                <th>Team</th>
-                                <th>Status</th>
-                            </tr>
-                        </thead>
-                        <tbody>
-                            <tr>
-                                <td>Ministry Wikipedia</td>
-                                <td>10 Jul 2024</td>
-                                <td>Ministry</td>
-                                <td>&dollar;5300</td>
-                                <td class="team">
-                                    <img draggable="false" src="imgs/team-01.png" alt="">
-                                    <img draggable="false" src="imgs/team-02.png" alt="">
-                                    <img draggable="false" src="imgs/team-03.png" alt="">
-                                    <img draggable="false" src="imgs/team-04.png" alt="">
-                                    <img draggable="false" src="imgs/team-05.png" alt="">
-                                </td>
-                                <td> <div class="status pending">Pending</div></td>
-                            </tr>
-                            <tr>
-                                <td>Xmark shop</td>
-                                <td>11 Jun 2024</td>
-                                <td>Xmark Co-founder</td>
-                                <td>&dollar;2400</td>
-                                <td class="team">
-                                    <img draggable="false" src="imgs/team-01.png" alt="">
-                                    <img draggable="false" src="imgs/team-04.png" alt="">
-                                    <img draggable="false" src="imgs/team-05.png" alt="">
-                                </td>
-                                <td> <div class="status in-progress">In Progress</div></td>
-                            </tr>
-                            <tr>
-                                <td>Bouba App</td>
-                                <td>08 Sep 2023</td>
-                                <td>Ibrahim</td>
-                                <td>&dollar;900</td>
-                                <td class="team">
-                                    <img draggable="false" src="imgs/team-01.png" alt="">
-                                    <img draggable="false" src="imgs/team-02.png" alt="">
-                                    <img draggable="false" src="imgs/team-03.png" alt="">
-                                    <img draggable="false" src="imgs/team-05.png" alt="">
-                                </td>
-                                <td> <div class="status completed">Pending</div></td>
-                            </tr>
-                            <tr>
-                                <td>Mahmoud Website</td>
-                                <td>11 Jun 2022</td>
-                                <td>Mahmoud</td>
-                                <td>&dollar;600</td>
-                                <td class="team">
-                                    <img draggable="false" src="imgs/team-03.png" alt="">
-                                    <img draggable="false" src="imgs/team-04.png" alt="">
-                                    <img draggable="false" src="imgs/team-05.png" alt="">
-                                </td>
-                                <td> <div class="status rejected">Pending</div></td>
-                            </tr>
-                            <tr>
-                                <td>Sayed Website</td>
-                                <td>15 Apr 2022</td>
-                                <td>Sayed</td>
-                                <td>&dollar;1200</td>
-                                <td class="team">
-                                    <img draggable="false" src="imgs/team-01.png" alt="">
-                                    <img draggable="false" src="imgs/team-02.png" alt="">
-                                    <img draggable="false" src="imgs/team-04.png" alt="">
-                                    <img draggable="false" src="imgs/team-05.png" alt="">
-                                </td>
-                                <td> <div class="status completed">completed</div></td>
-                            </tr>
-                            <tr>
-                                <td>Arena Application</td>
-                                <td>01 Mar 2021</td>
-                                <td>Arena Admin</td>
-                                <td>&dollar;2600</td>
-                                <td class="team">
-                                    <img draggable="false" src="imgs/team-01.png" alt="">
-                                    <img draggable="false" src="imgs/team-02.png" alt="">
-                                    <img draggable="false" src="imgs/team-04.png" alt="">
-                                    <img draggable="false" src="imgs/team-05.png" alt="">
-                                </td>
-                                <td> <div class="status completed">completed</div></td>
-                            </tr>
-                        </tbody>
-                    </table>
-                    </div>
-                </div>
+              </div>
             </div>
+          </div>
+          <div class="Latest-post">
+            <h2>Latest post</h2>
+            <div class="box">
+              <div class="user">
+                <img draggable="false" src="imgs/avatar.png" alt />
+                <div class="text">
+                  <h4>Ahmed Yassine</h4>
+                  <p>about 3 hours ago</p>
+                </div>
+              </div>
+              <div class="content">
+                <div class="proverb">
+                  " A journey of a thousand miles begins with a single step."
+                </div>
+                <div class="react">
+                  <div class="heart">
+                    <i class="fa-regular fa-heart"></i> 1.8K
+                  </div>
+                  <div class="comment">
+                    <i class="fa-regular fa-comments"></i> 286
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="social-media">
+            <h2>Social Media stats</h2>
+            <div class="box">
+              <div class="link twitter">
+                <i class="fa-brands fa-twitter fa-2x"></i>
+                <div>90K Followers</div>
+                <button>follow</button>
+              </div>
+              <div class="link facebook">
+                <i class="fa-brands fa-facebook fa-2x"></i>
+                <div>2M Like</div>
+                <button>like</button>
+              </div>
+              <div class="link youtube">
+                <i class="fa-brands fa-youtube fa-2x"></i>
+                <div>1M Subs</div>
+                <button>subscribe</button>
+              </div>
+              <div class="link linkedin">
+                <i class="fa-brands fa-linkedin fa-2x"></i>
+                <div>50K Followers</div>
+                <button>follow</button>
+              </div>
+            </div>
+          </div>
+          <div class="Projects">
+            <h2>Projects</h2>
+            <div>
+              <table>
+                <colgroup>
+                  <col />
+                  <col />
+                  <col />
+                  <col />
+                  <col />
+                  <col />
+                </colgroup>
+                <thead>
+                  <tr>
+                    <th>Name</th>
+                    <th>Finish Date</th>
+                    <th>Client</th>
+                    <th>Price</th>
+                    <th>Team</th>
+                    <th>Status</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>Ministry Wikipedia</td>
+                    <td>10 Jul 2024</td>
+                    <td>Ministry</td>
+                    <td>&dollar;5300</td>
+                    <td class="team">
+                      <img draggable="false" src="imgs/team-01.png" alt />
+                      <img draggable="false" src="imgs/team-02.png" alt />
+                      <img draggable="false" src="imgs/team-03.png" alt />
+                      <img draggable="false" src="imgs/team-04.png" alt />
+                      <img draggable="false" src="imgs/team-05.png" alt />
+                    </td>
+                    <td>
+                      <div class="status pending">Pending</div>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>Xmark shop</td>
+                    <td>11 Jun 2024</td>
+                    <td>Xmark Co-founder</td>
+                    <td>&dollar;2400</td>
+                    <td class="team">
+                      <img draggable="false" src="imgs/team-01.png" alt />
+                      <img draggable="false" src="imgs/team-04.png" alt />
+                      <img draggable="false" src="imgs/team-05.png" alt />
+                    </td>
+                    <td>
+                      <div class="status in-progress">In Progress</div>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>Bouba App</td>
+                    <td>08 Sep 2023</td>
+                    <td>Ibrahim</td>
+                    <td>&dollar;900</td>
+                    <td class="team">
+                      <img draggable="false" src="imgs/team-01.png" alt />
+                      <img draggable="false" src="imgs/team-02.png" alt />
+                      <img draggable="false" src="imgs/team-03.png" alt />
+                      <img draggable="false" src="imgs/team-05.png" alt />
+                    </td>
+                    <td>
+                      <div class="status completed">Pending</div>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>Mahmoud Website</td>
+                    <td>11 Jun 2022</td>
+                    <td>Mahmoud</td>
+                    <td>&dollar;600</td>
+                    <td class="team">
+                      <img draggable="false" src="imgs/team-03.png" alt />
+                      <img draggable="false" src="imgs/team-04.png" alt />
+                      <img draggable="false" src="imgs/team-05.png" alt />
+                    </td>
+                    <td>
+                      <div class="status rejected">Pending</div>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>Sayed Website</td>
+                    <td>15 Apr 2022</td>
+                    <td>Sayed</td>
+                    <td>&dollar;1200</td>
+                    <td class="team">
+                      <img draggable="false" src="imgs/team-01.png" alt />
+                      <img draggable="false" src="imgs/team-02.png" alt />
+                      <img draggable="false" src="imgs/team-04.png" alt />
+                      <img draggable="false" src="imgs/team-05.png" alt />
+                    </td>
+                    <td>
+                      <div class="status completed">completed</div>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>Arena Application</td>
+                    <td>01 Mar 2021</td>
+                    <td>Arena Admin</td>
+                    <td>&dollar;2600</td>
+                    <td class="team">
+                      <img draggable="false" src="imgs/team-01.png" alt />
+                      <img draggable="false" src="imgs/team-02.png" alt />
+                      <img draggable="false" src="imgs/team-04.png" alt />
+                      <img draggable="false" src="imgs/team-05.png" alt />
+                    </td>
+                    <td>
+                      <div class="status completed">completed</div>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
         </div>
-
+      </div>
     </div>
-</body>
-
+  </body>
 </html>
